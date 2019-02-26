@@ -23,7 +23,7 @@ const Data = {
     {
       icon:
         "https://www.apple.com/v/mac/home/ac/images/familybrowser/imac_pro_dark_large.svg",
-      name: "iMac Pro"
+      name: `iMac Pro New`
     },
     {
       icon:

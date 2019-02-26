@@ -1,1 +1,41 @@
 /* top color: #2d2d2d, bottom color: #1a1a1a, text & svg's: #ffffff, "New" text: #db7334*/
+
+/* Home.js */
+.navWrapper {
+  background: #2d2d2d;
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+a {
+  margin: 54px;
+  text-decoration: none;
+  color: white;
+}
+
+.activeNavButton {
+  opacity: 0.5;
+}
+
+/* Mac.js */
+
+.mac-wrapper {
+  background: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 160px;
+  color: white;
+}
+
+.mac-icons {
+  text-align: center;
+}
+
+img {
+  height: 75px;
+}

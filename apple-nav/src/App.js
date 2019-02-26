@@ -10,15 +10,21 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      mac: Data
+      macData: Data.macData
     };
   }
   render() {
-    const { mac } = this.state;
+    const { macData } = this.state;
     return (
       <div className="App">
-        <Route exact path="/" component={Home} />
-        <Route path="/mac" render={props => <Mac {...props} mac={mac} />} />
+        <div className="navbar">
+          <Home />
+        </div>
+        <Route
+          exact
+          path="/mac"
+          render={props => <Mac {...props} macData={macData} />}
+        />
       </div>
     );
   }
