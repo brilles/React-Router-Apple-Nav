@@ -17,7 +17,7 @@ const Bag = styled(ShoppingBag)`
   color: #ffffff;
 `;
 
-export default function Home(props) {
+export default function TopNav(props) {
   return (
     <div className="navWrapper">
       <NavLink exact to="/">
@@ -47,7 +47,7 @@ export default function Home(props) {
       <NavLink to="/search" activeClassName="activeNavButton">
         <SearchIcon size="26" />
       </NavLink>
-      <NavLink to="/bag">
+      <NavLink to="/bag" activeClassName="activeNavButton">
         <Bag size="26" />
       </NavLink>
     </div>

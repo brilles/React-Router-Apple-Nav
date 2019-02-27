@@ -1,4 +1,15 @@
 const Data = {
+  itemsArray: [
+    "mac",
+    "ipad",
+    "iphone",
+    "watch",
+    "tv",
+    "music",
+    "support",
+    "search",
+    "bag"
+  ],
   macData: [
     {
       icon:
